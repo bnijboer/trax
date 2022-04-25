@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Track;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,6 +15,6 @@ class TrackSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Track::factory(10)->create();
     }
 }

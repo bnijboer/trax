@@ -1,5 +1,5 @@
 <x-layout>
-    @if ($tracks)
+    @if (count($tracks))
         <table>
             <thead>
                 <tr>
